@@ -6,11 +6,7 @@ import { RootState } from 'store';
 import { connect, Dispatch } from 'react-redux';
 import { returnType } from 'utils/redux';
 import { compose } from 'redux';
-
-const MainWrapper = styled.div`
-  flex-grow: 1;
-  padding-top: 64px;
-`;
+import { MainWrapper } from 'components/Layout/ui';
 
 interface LayoutProps {
 }
