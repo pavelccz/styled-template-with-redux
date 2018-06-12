@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-import { returnType, Dispatch } from 'utils/redux';
+import { returnType, Dispatch, bindActionCreators } from 'utils/redux';
 import { RootState } from 'store';
 import { setNumber, addNumber, resetNumber } from 'components/Page/actions';
 import { createStructuredSelector } from 'reselect';
